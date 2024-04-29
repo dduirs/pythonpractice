@@ -3,9 +3,7 @@ nums = []
 target = 0
 def twoSum(nums: list[int], target: int) -> list[int]:
     for number in nums:
-        print("number:" + str(number))
         for number2 in nums:
-            print("number2:" + str(number2))
             if target == number + number2:
                 return nums.index(number), nums.index(number2)
 
